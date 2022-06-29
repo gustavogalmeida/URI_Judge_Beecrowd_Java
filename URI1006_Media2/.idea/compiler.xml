@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="URI1006_Media2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="URI1006_Media2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
