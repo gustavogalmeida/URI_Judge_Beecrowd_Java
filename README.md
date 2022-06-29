@@ -1,2 +1,3 @@
-# URIJudge_AreaCirculo
- Exercicio URI Judge que calcula area do circulo
+# URI_Judge_Java_Exercicios
+
+Exercicios do URI feitos em Java
