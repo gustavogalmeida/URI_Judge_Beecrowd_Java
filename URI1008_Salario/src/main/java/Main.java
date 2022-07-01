@@ -21,16 +21,12 @@ import java.io.IOException;
 public class Main {
     public static void main (String[] args) throws IOException{
         Scanner teclado = new Scanner(System.in);
-        int nFuncionario;
-        int qtdHoras;
-        double vHora;
-        double salario;
-        nFuncionario = teclado.nextInt();
-        qtdHoras = teclado.nextInt();
-        vHora = Double.parseDouble(teclado.nextLine());
-        salario = vHora*qtdHoras;
+        int nFuncionario = Integer.parseInt(teclado.nextLine());
+        double qtdHoras = Double.parseDouble(teclado.nextLine());
+        double vHora = Double.parseDouble(teclado.nextLine());
+        double salario = vHora*qtdHoras;
         BigDecimal bigSalario = new BigDecimal(salario).setScale(2, RoundingMode.HALF_EVEN);
 
-        System.out.println("NUMBER = "+nFuncionario+"\nSALARY = "+ bigSalario);
+        System.out.println("NUMBER = "+nFuncionario+"\nSALARY = U$ "+ bigSalario);
     }
 }
