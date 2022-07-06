@@ -26,5 +26,8 @@ public class Main {
         BigDecimal bigConsumo = new BigDecimal(consumo);
         bigConsumo = bigConsumo.setScale(3, RoundingMode.HALF_EVEN);
         System.out.println(bigConsumo + " km/l");
+
+
+
     }
 }
