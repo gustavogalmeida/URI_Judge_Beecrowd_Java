@@ -1,4 +1,3 @@
-package Java;
 /* 
 Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. 
 Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel 
@@ -17,7 +16,7 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Bhaskara {
+public class URI1036_Bhaskara {
     public static void main(String[] args) throws IOException{
         Scanner scanner = new Scanner(System.in);
         float a = scanner.nextFloat();

@@ -1,3 +1,4 @@
+package URI;
 /*
 * A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
 *
@@ -14,7 +15,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class URI1002_AreaCirculo {
+public class main {
     public static void main(String[] args) throws IOException {
         double area=0f;
         double raio=0f;
