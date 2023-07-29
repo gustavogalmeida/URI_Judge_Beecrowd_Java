@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1014_ConsumoCombustivel {
     public static void main(String[] args) {
         int distancia;
         double combustivel, consumo;

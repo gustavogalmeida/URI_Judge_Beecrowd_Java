@@ -13,7 +13,7 @@ conforme exemplo fornecido.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1019_ConversaoDeTempo {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

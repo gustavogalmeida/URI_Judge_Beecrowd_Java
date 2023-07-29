@@ -13,7 +13,7 @@ Não esqueça de imprimir o fim de linha após o produto, caso contrário seu pr
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1004_ProdutoSimples {
     public static void main(String[] args) throws IOException {
         Scanner keyboard = new Scanner(System.in);
         int prod, a, b;

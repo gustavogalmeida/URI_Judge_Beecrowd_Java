@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1009_SalarioComBonus {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         String nome = scanner.nextLine();

@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1011_Esfera {
     public static void main(String[] args) throws IOException {
         double valPi = 3.14159;
         double volume, raio;

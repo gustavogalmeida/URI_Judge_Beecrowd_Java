@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1012_Area {
     public static void main(String[] args) throws IOException {
         // LENDO STRING
         Scanner scanner = new Scanner (System.in);

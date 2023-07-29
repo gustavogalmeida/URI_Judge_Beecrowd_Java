@@ -16,7 +16,7 @@ Imprima o tempo necessário seguido da mensagem "minutos".
  */
 import java.util.Scanner;
 
-public class Main {
+public class URI1016_DistanciaMinutos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int km = scanner.nextInt();

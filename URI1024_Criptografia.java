@@ -28,7 +28,7 @@ Para cada entrada, deve-se apresentar a mensagem criptografada.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1024_Criptografia {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 

@@ -18,7 +18,7 @@ import java.math.RoundingMode;
 import java.util.Scanner;
 import java.io.IOException;
 
-public class Main {
+public class URI1008_Salario {
     public static void main (String[] args) throws IOException{
         Scanner teclado = new Scanner(System.in);
         int nFuncionario = Integer.parseInt(teclado.nextLine());

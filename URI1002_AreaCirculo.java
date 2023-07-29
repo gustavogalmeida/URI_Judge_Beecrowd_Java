@@ -14,7 +14,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1002_AreaCirculo {
     public static void main(String[] args) throws IOException {
         double area=0f;
         double raio=0f;

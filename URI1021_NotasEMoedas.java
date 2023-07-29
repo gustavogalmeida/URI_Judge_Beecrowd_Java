@@ -16,7 +16,7 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1021_NotasEMoedas {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         double total = scanner.nextDouble();

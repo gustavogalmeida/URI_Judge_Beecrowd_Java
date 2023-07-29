@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1017_GastoCombustivel {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int horas = scanner.nextInt();

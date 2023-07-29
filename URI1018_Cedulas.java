@@ -14,7 +14,7 @@ contrário seu programa apresentará a mensagem: “Presentation Error”.
 
 import java.util.Scanner;
 
-public class Main {
+public class URI1018_Cedulas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int val = scanner.nextInt();

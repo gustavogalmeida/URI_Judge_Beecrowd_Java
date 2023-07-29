@@ -12,7 +12,7 @@ Mostre a respectiva mensagem após a validação dos valores.
  */
 import java.util.Scanner;
 
-public class Main {
+public class URI1035_TesteDeSelecao1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String abcd = scanner.nextLine();

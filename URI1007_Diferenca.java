@@ -13,7 +13,7 @@ em branco antes e depois da igualdade.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1007_Diferenca {
     public static void main(String[] args) throws IOException {
         Scanner keyboard = new Scanner(System.in);
         int a, b, c, d, diferenca;

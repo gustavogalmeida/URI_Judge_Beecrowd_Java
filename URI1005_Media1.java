@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1005_Media1 {
     public static void main(String[] args) throws IOException {
         Scanner keyboard = new Scanner(System.in);
         double a = Double.parseDouble(keyboard.nextLine());

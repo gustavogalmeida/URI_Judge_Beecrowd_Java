@@ -16,7 +16,7 @@ Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maio
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class URI1013_OMaior {
     public static void main (String[] args) throws IOException {
 
         int val1, val2, val3;

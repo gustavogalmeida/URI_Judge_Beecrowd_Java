@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Main {
+public class URI1015_DistanciaDoisPontos {
     public static void main(String[] args) {
         String ponto1, ponto2;
         Scanner scanner = new Scanner(System.in);
