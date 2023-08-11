@@ -16,9 +16,8 @@ public class URI1032_CirculoExecutarPrimos{
         }
         int tamanhoPrimos;
         int tamanhoCirculo = circulo.size();
-        primos.add(2);
-        primos.add(3);
-        int j = 5;
+
+        int j = 2; // primeiro primo
 
         // preenchendo os primos
         do {
@@ -31,12 +30,25 @@ public class URI1032_CirculoExecutarPrimos{
         } while (tamanhoPrimos < tamanhoCirculo);
 
         // executando as pessoas do circulo
-        int ultimoExecutado = circulo.get(primos.get(0));
-        circulo.remove(primos.get(0)); // primeira execução
-        // demais execuções
-        
+        int contador = 0;
+        int executado = 0;
+        while (tamanhoCirculo > 1){
 
-        System.out.println(primos);
+            int posicao = executado+primos.get(contador);
+            
+            if (posicao > circulo.size()){
+                executado = posicao%tamanhoCirculo;
+                circulo.remove(executado);
+            } else {
+                executado = posicao;
+                circulo.remove(executado);
+            }
+
+            tamanhoCirculo = circulo.size();
+            contador +=1;
+        }
+
+        //System.out.println(primos);
         System.out.println(circulo);
 
     }
