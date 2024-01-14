@@ -13,12 +13,23 @@ public class Main {
             strSplit = str.split(" ");
 
             int nominator1 = Integer.parseInt(strSplit[0]);
-            int operator1 = Integer.parseInt(strSplit[1]);
             int denominator1 = Integer.parseInt(strSplit[2]);
-            int mainOperator = Integer.parseInt(strSplit[3]);
+            String mainOperator = strSplit[3];
             int nominator2 = Integer.parseInt(strSplit[4]);
-            int operator2 = Integer.parseInt(strSplit[5]);
-            int denominator2 = Integer.parseInt(strSplit[6]);            
+            int denominator2 = Integer.parseInt(strSplit[6]);
+
+            switch (mainOperator){
+                case "+":
+                    break;
+                case "-":
+                    break;
+                case "*":
+                    break;
+                case "/":
+                    break;
+                default:
+                    throw new IllegalStateException("Unexpected value: " + mainOperator);
+            }
         }
 
     }
